@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Harvey's Injector.exe" version="1.0.0.3" publicKeyToken="6c262bc34b98f9d0" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Harvey's Injector" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Harvey's Injector.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Harvey's Injector.exe" size="79840">
+      <assemblyIdentity name="Harvey's Injector" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9fdVFeXP6HT0s09AdraCcMxxlMOckkykTspozfQKS4c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Harvey's Injector.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c922zfRb5ORzqEo8SDjt8Mx8lDMhGTWhqKcK/oileDM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-1P65V29\Admin" issuerKeyHash="a108ebbd96e0211b2f72152ba5596ade99ec3118" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BsAaXeVmNcEiqnd9JKhXt1Js37AU0IEMMu7B9c9PtGQ=</DigestValue></Reference></SignedInfo><SignatureValue>B5jsG16yc9oGVq9EAp8EaKFq2zt066o1AvtU7MTLTSGF0jXSbnfqbymGVeZqxL0UxXNaOYQJaYOL+6x7K7/bIFS4DQTDFbAS+QuohnxW1RqYQ8gt1m9WisowQaLn9LVi/mYx8GW8sh1+W9SdGf+qpTrT1k0SxOWzOODhoAG1P+w=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3ogRxRra6UeVUiBAo521M5qu5ZoMnfCrQhJME9vWbAKpOW5xXioZ+I9UGoxRf7co1YxP7Ejux0DDK23o7BLHSSFqRXa9WE8deo8bR7MIWy04TCVjEGwNzP7cFZE7gq4A8CQP65Ak1pk7cxtEynV77t8ySk4p3YH+IiuraD08VoU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="64b44fcff5c1ee320c81d014b0df6c52b757a8247d77aa22c13566e55d1ac006" Description="" Url=""><as:assemblyIdentity name="Harvey's Injector.exe" version="1.0.0.3" publicKeyToken="6c262bc34b98f9d0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-1P65V29\Admin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8wdMWpz3qIddHNqnkqnEWjlHC1Y+14PnSiQp3/VDG8I=</DigestValue></Reference></SignedInfo><SignatureValue>Mms9cV3p7us6MZaKzJ060Wz4rTeNyRCCnDFnvobpH9gv59M4tapB1uA2vbuu8yDaFuJ/fykl42yHc6mQOjVu4pku9a0SJMp7LbuvKwPSj3WrdELAE6OsgdM5fdeaNlxwqOY/1brrJNR4WgIkdH/HaphGc+ZVlYRF1Oam9ZqJFyo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3ogRxRra6UeVUiBAo521M5qu5ZoMnfCrQhJME9vWbAKpOW5xXioZ+I9UGoxRf7co1YxP7Ejux0DDK23o7BLHSSFqRXa9WE8deo8bR7MIWy04TCVjEGwNzP7cFZE7gq4A8CQP65Ak1pk7cxtEynV77t8ySk4p3YH+IiuraD08VoU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQZCrW1ou6rrROzEjbXT37cTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADEAUAA2ADUAVgAyADkAXABBAGQAbQBpAG4wHhcNMjAxMDEzMjI1MTAwWhcNMjExMDE0MDQ1MTAwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADEAUAA2ADUAVgAyADkAXABBAGQAbQBpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN6IEcUa2ulHlVIgQKOdtTOaruWaDJ3wq0ISTBPb1mwCqTlucV4qGfiPVBqMUX+3KNWMT+xI7sdAwytt6OwSx0khakV2vVhPHXqPG0ezCFstOEwlYxBsDcz+3BWRO4KuAPAkD+uQJNaZO3MbRMp1e+7fMkpOKd2B/iIrq2g9PFaFAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAQZajFEXhI5LoY2ThTPUGgxy8o+PcZ5WT3ubk1F8gpAdhgQe2WXqYwrcCHi1PJvm8ky0bWoosFk+puBO6enpLGeyeqGWF4eXavp4E8vSe2NVDnomHQO6vEiEViWD3YUNomzErbmjij0LX5YusY4TKrbHxQr1fuudxlXZOrK2koHc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
