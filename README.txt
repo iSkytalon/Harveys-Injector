@@ -1,12 +1,12 @@
 ___________________________________________________________________________________
 -------------------------------------------------------------------------------------------------------------------------
-Hello, everyone! Thank you for choosing Harvey's Injector...
+Hello, everyone! Thank you for choosing Harvey's Injector.
 -------------------------------------------------------------------------------------------------------------------------
 This injector will allow you to open .dll files and choose your process, similar to RemoteDLL.
 -------------------------------------------------------------------------------------------------------------------------
-If you encounter any problems concerning my injector, feel free to contact me on Discord...
+If you encounter any problems concerning my injector, feel free to contact me on Discord!
 -------------------------------------------------------------------------------------------------------------------------
-Discord: Skytalon#0064
+Discord: Skytalon#0077
 -------------------------------------------------------------------------------------------------------------------------
 I will try my best to fix any problem you encounter. :-)
 -------------------------------------------------------------------------------------------------------------------------
